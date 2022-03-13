@@ -61,7 +61,7 @@ body {
   color: #ffffff;
   text-align: left;
   background-color: rgb(136, 136, 136);
-  background-image: linear-gradient(to bottom left, #ff0000 ,#001aff);
+  background-image: linear-gradient(to bottom left, #ff0000,#ae00ff, #0011ff);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    font-size: 16pt;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -548,8 +549,7 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3399,6 +3399,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
+  font-size: 16pt;
   color: #ffffff;
   text-align: inherit;
   white-space: nowrap;
@@ -3406,7 +3407,7 @@ input[type="button"].btn-block {
   border: 0;
 }
 
-.dropdown-item:hover, .dropdown-item:focus {
+.dropdown-item:hover, .dropdown-item:focus{
   color: rgb(0, 128, 255);
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.3);
@@ -4327,6 +4328,8 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  align-items: center;
+  align-content: center;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4352,6 +4355,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
+  align-self: center;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -4734,11 +4738,15 @@ input[type="button"].btn-block {
   position: relative;
   display: -ms-flexbox;
   display: flex;
+  text-decoration: none;
   -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
