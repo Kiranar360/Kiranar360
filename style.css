@@ -114,7 +114,7 @@ h2 a:hover,h2 a:focus{
   font-size: 16pt;
 }
 .info li{
-  list-style-image: url('svgs/solid/code.svg');
+  list-style-image: url('svgs/code.svg');
   font-size: 16pt;
   text-align: left;
 }
@@ -147,6 +147,10 @@ h2 a:hover,h2 a:focus{
   background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
 }
+/* For Self Reference Only */
+.color-picker{
+  color: #0044ff;
+}
 
 /*
 --------------------------------
@@ -155,65 +159,122 @@ h2 a:hover,h2 a:focus{
 -                              -
 --------------------------------
 */
-.google::before{
-  content: "\f1a0";
+.google {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #008cff;
+  content: url('/svgs/google.svg');
 }
-.youtube:before{
-  content: "\f167";
+.youtube {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #ff0000;
 }
-.github:before{
-  content: "\f09b";
+.github {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #000000;
+  content: url('/svgs/github.svg');
 }
-.microsoft:before{
+.microsoft {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #ffffff;
-  content: "\f3ca";
+  content: url('/svgs/microsoft.svg');
 }
-.windows:before{
-  color: #00a2ff;
-  content: "\f17a";
+.windows{
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
+  content: url('/svgs/windows.svg');
 }
-.reddit:before{
-  color: #ff4800;
-  content: "\f1a1";
+.reddit {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
+  content: url('/svgs/reddit.svg');
 }
-.chromium:before{
+.chromium {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #4174ff;
-  content: "\f268";
+  content: url('/svgs/chromium.svg');
 }
-.apple:before {
+.apple  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #ffffff;
-  content: "\f179";
+  content: url('/svgs/apple.svg');
 }
-.firefox-browser:before{
+.firefox-browser {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #5900ff;
-  content: "\e007";
+  content: url('/svgs/firefox-nightly.svg')
 }
-.css3:before {
+.css3  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #ff4800;
-  content: "\f38b";
+  content: url('/svgs/css3-alt.svg')
 }
-.html5:before {
+.html5  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #0044ff;
-  content: "\f13b";
+  content: url('/svgs/html5.svg');
 }
-.android:before {
+.android  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #00ff0d;
-  content: "\f17b";
+  content: url('/svgs/android.svg');
 }
-.bootstrap:before {
+.bootstrap  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #8400ff;
-  content: "\f836";
+  content: url('/svgs/bootstrap.svg');
 }
-.font-awesome:before {
+.font-awesome  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #1100ff;
-  content: "\f2b4";
+  content: url('/svgs/font-awesome.svg');
 }
-.js:before {
+.js  {
+  float: center;
+  align-items: center;
+  align-self: center;
+  width: 1em;
   color: #00a2ff;
-  content: "\f3b8";
+  content: url('/svgs/js-square.svg');
 }
 .vs{
   float: center;
